@@ -12,10 +12,10 @@
 
         <section class="main"></section>
 
-        <footer>
+        <footer class= "container-fluid">
             <?php include_once './phpComponents/footer.php'; ?>
-        </footer class= "container-fluid">
-
+        </footer >
+        
         <?php include_once './phpComponents/scripts.php'; ?>
    
     </body>
