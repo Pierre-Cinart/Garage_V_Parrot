@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  min-width: 100vh;
+  background-color: rgb(219, 219, 219);
 }
 
 .main {
@@ -38,8 +38,6 @@ header img {
 footer {
   background-color: black;
   color: white;
-  position: absolute;
-  top: 100%;
   width: 100%;
   height: 160px;
   font-size: 12px;
@@ -55,6 +53,33 @@ footer {
   padding: 0;
   margin: 0;
   background-color: red;
+}
+
+.bg img {
+  width: 100%;
+  height: 260px;
+}
+
+.article-center {
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.horraire {
+  width: 25%;
+  min-width: 210px;
+  margin: auto;
+}
+.horraire h2 {
+  text-align: center;
+}
+.horraire p {
+  padding-left: 20%;
+}
+.horraire span {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 800px) {

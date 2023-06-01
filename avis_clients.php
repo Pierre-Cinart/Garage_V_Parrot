@@ -9,7 +9,15 @@
         <?php include_once './phpComponents/header.php'; ?>
     </header>
 
-        <section class="main"></section>
+        <section class="main">
+            <article>
+                <h2> Découvrez les avis de nos clients </h2>
+                <div>
+                    <p>John Coffee : </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptate natus beatae nam maiores nisi exercitationem placeat corrupti, et libero velit optio, dolorum vero vel distinctio esse dolores ducimus quibusdam error itaque laboriosam.</p>
+                </div>
+            </article>
+        </section>
 
         <footer>
             <?php include_once './phpComponents/footer.php'; ?>

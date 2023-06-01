@@ -4,6 +4,17 @@
         <?php include_once './phpComponents/head.php'; ?>
     </head>
 <body>
-    
+    <header>
+        <?php include_once './phpComponents/header.php'; ?>
+    </header>
+    <div class="bg">
+        <img src="./Images/mecanique/bg.jpg" alt="image de fond mecanique">
+    </div>
+    <section class="main"></section>
+
+    <footer>
+        <?php include_once './phpComponents/footer.php'; ?>
+    </footer class= "container-fluid">
+    <?php include_once './phpComponents/scripts.php'; ?>
 </body>
 </html>
