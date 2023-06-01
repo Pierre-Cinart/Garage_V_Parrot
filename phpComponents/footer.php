@@ -1,4 +1,4 @@
-<div class="row " style = "width:100%; padding:0;margin:0;" >
+<div class="row " style = "width:100%; padding:0;margin:0;margin-top:12px; " >
         <div class="col-3">
             <p>ECF , création d' un  site web pour un  garage fictif,
             " réalisé dans le cadre de ma formation de développeur web et d'application web chez Studi  
