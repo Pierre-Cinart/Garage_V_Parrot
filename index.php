@@ -11,13 +11,20 @@
         </header>
         <div class="bg">
                 <img src="./Images/carrosserie/bg.jpg" alt="image de fond carrosserie">
-            </div>
+        </div>
         <section class="main">
           
-            <article id = "a_propos"class = "article-center" >
+            <article id = "a_propos" class = "article-center txt-l" >
                 <h2 >A propos</h2>
                     <p >
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus accusantium ea aliquid veritatis iusto officia eius qui, rem optio quod maxime, possimus necessitatibus, eaque dolores fugiat quasi quidem consequatur dolore facere illum ratione architecto. Eligendi aliquam inventore aperiam, itaque quo ad esse facere enim veniam, obcaecati, quae numquam cum sunt fugit provident autem distinctio! Totam iure veritatis explicabo, magnam accusantium nulla facere nihil incidunt similique corporis, veniam alias. Culpa sint officiis veritatis quas iusto vero. Nulla, ullam qui. Sed harum modi sapiente! Quisquam, deleniti totam doloremque repudiandae voluptatum asperiores hic a sequi quae corporis, et architecto omnis laboriosam possimus autem aut, fugit incidunt pariatur similique. Obcaecati omnis nostrum ex sit
+                        Bienvenue sur notre site automobile !
+                        Chez <b>Garage V-Parrot</b>, nous sommes passionnés par les voitures et nous mettons tout en œuvre pour offrir des services de qualité à nos clients. Que vous ayez besoin d'une <b>réparation</b>, de l'<b>entretien régulier</b> de votre véhicule ou que vous cherchiez une <b>voiture d'occasion</b>, vous êtes au bon endroit.
+                        Notre équipe d'experts qualifiés et dévoués est là pour vous accompagner à chaque étape. Nous proposons une large gamme de services de <b>réparation de carrosserie</b>, allant des petits accrocs aux réparations plus importantes suite à des accidents. Vous pouvez compter sur notre savoir-faire et notre expérience pour redonner à votre véhicule son allure d'origine.
+                        Si vous recherchez une <b>voiture d'occasion</b>, vous trouverez également votre bonheur parmi notre sélection. Chaque véhicule est minutieusement inspecté et préparé pour vous offrir une conduite fiable et agréable. Notre équipe se tient à votre disposition pour vous présenter les différentes options disponibles et répondre à toutes vos questions.
+                        Nous attachons une grande importance à la satisfaction de nos clients, c'est pourquoi nous mettons un point d'honneur à fournir un service <b>personnalisé</b> et <b>attentif</b>. Nous sommes à votre écoute pour comprendre vos besoins et vous conseiller au mieux. Votre <b>sécurité</b> et votre <b>confort</b> sont notre priorité.
+                        N'hésitez pas à parcourir notre site pour découvrir nos services, notre inventaire de voitures d'occasion et les témoignages de nos clients satisfaits. Si vous avez des questions ou si vous souhaitez prendre rendez-vous, notre équipe est joignable par téléphone ou via notre formulaire de <b>contact</b> en ligne.
+                        Merci de votre visite et nous espérons avoir le plaisir de vous accueillir prochainement dans notre <b>garage automobile</b>
+                        L'équipe de Garage V-Parrot
                     </p>
             </article>
             

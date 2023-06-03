@@ -33,14 +33,14 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login.php">Connection</a>
-        </li>
+        <!-- <li class="nav-item ">
+          <a class="nav-link" href="login.php">Connexion</a>
+        </li> -->
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Rechercher</button>
-      </form>
+        <form class="d-flex" role="search">
+          <!-- <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search"> -->
+          <button class="btn btn-primary" type="submit">Connexion</button> 
+      </form> 
     </div>
   </div>
 </nav>
