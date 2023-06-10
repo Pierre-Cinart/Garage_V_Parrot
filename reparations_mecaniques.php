@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <?php include_once './phpComponents/head.php'; ?>
+        <title>Réparations mécaniques</title>
     </head>
 <body>
     <header>
@@ -10,7 +11,20 @@
     <div class="bg">
         <img src="./Images/mecanique/bg.jpg" alt="image de fond mecanique">
     </div>
+    <div class = "sep"></div>
     <section class="main">
+        <h1>Réparations de mécaniques</h1>
+        <section class ="pictures">
+            <div>
+                <img src="./Images/mecanique/repa1.jpeg" alt="image mecanique vehicule">
+                <img src="./Images/mecanique/repa2.jpeg" alt="image mecanique vehicule"> 
+            </div>
+            <div>
+                <img src="./Images/mecanique/repa3.jpg" alt="image mecanique vehicule">
+                <img src="./Images/mecanique/repa4.jpg" alt="image mecanique vehicule"> 
+            </div>
+        </section>
+        <div class = "sep"></div>
             <article>
                 <div class="txt-box">
                     <p class="txt-s">
@@ -25,6 +39,7 @@
                     </p>
                 </div>
             </article>
+            
     </section>
 
     <footer>

@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <?php include_once './phpComponents/head.php'; ?>
+        <title>Ventes de véhicules</title>
     </head>
 <body>
     <header>

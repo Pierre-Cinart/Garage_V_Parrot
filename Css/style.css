@@ -16,6 +16,10 @@ body {
   position: relative;
   min-height: 100%;
 }
+.main h1 {
+  text-align: center;
+  text-decoration: underline;
+}
 
 header {
   font-size: 18px;
@@ -43,7 +47,7 @@ footer {
   background-color: black;
   color: white;
   width: 100%;
-  height: 160px;
+  height: auto;
   font-size: 12px;
   font-weight: bolder;
 }
@@ -62,7 +66,7 @@ footer {
 .bg img {
   width: 100%;
   height: 260px;
-  margin-bottom: 20px;
+  border-top: 1px solid black;
 }
 
 .article-center {
@@ -102,6 +106,38 @@ footer {
 }
 .horraire span {
   font-weight: 700;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: rgba(160, 159, 159, 0.281);
+  border-radius: 5%;
+}
+.pictures div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.pictures img {
+  width: 45%;
+  border-radius: 5%;
+  box-shadow: 0px 0px 5px 2px rgba(128, 0, 0, 0.562);
+}
+
+.sep {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 2px solid rgb(68, 36, 36);
+  box-shadow: 0px 0px 8px 5px rgba(128, 0, 0, 0.555);
 }
 
 @media screen and (max-width: 800px) {

@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <?php include_once './phpComponents/head.php'; ?>
+        <title>Garage V-Parrot - avis clientèle</title>
     </head>
     <body>
     

@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <?php include_once './phpComponents/head.php'; ?>
+        <title>Entretiens de véhicules</title>
     </head>
 <body>
     <header>
@@ -10,8 +11,20 @@
     <div class="bg">
         <img src="./Images/entretien/bg.jpg" alt="image de fond entretien">
     </div>
-   
+    <div class = "sep"></div>
     <section class="main">
+    <h1>Entretiens véhicules</h1>
+        <section class ="pictures">
+            <div>
+                <img src="./Images/entretien/ent1.jpeg" alt="image entretien vehicule">
+                <img src="./Images/entretien/ent2.jpeg" alt="image entretien vehicule"> 
+            </div>
+            <div>
+                <img src="./Images/entretien/ent3.jpeg" alt="image entretien vehicule">
+                <img src="./Images/entretien/ent4.jpg" alt="image entretien vehicule"> 
+            </div>
+        </section>
+        <div class = "sep"></div>
             <article>
                 <div class="txt-box">
                     <p class="txt-s">
@@ -26,6 +39,7 @@
                     </p>
                 </div>
             </article>
+           
     </section>
 
     <footer>
