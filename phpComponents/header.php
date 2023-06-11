@@ -39,7 +39,7 @@
       </ul>
         <form class="d-flex" role="search">
           <!-- <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search"> -->
-          <button class="btn btn-primary" type="submit">Connexion</button> 
+          <a  class="btn btn-danger" href="login.php">Connexion</a> 
       </form> 
     </div>
   </div>

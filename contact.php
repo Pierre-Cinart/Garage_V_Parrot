@@ -15,6 +15,29 @@ session_start();
         <section class="main">
             <article class="article-center">
                 <div>
+                <div class="sep"></div>
+                <h2 style = "margin:auto;text-align:center;">besoin de plus d 'informations? <br> contactez nous :</h2>
+                <br>
+           <div class="contact-form">
+                
+                <form method="POST" action="">
+                    <div class="form-box">
+                        <br><br>
+                        <label for="message">message :</label>
+                        <textarea id="message" name="message" rows="8" cols="40">
+
+                        </textarea>
+                    </div>
+                    <br>
+                    
+                    <div class="btn-sub">
+                        <input type="submit" name="submit-form" id="submit-form" value="envoyer">
+                    </div>
+                    <br>
+                </form>
+           </div>
+           <br>
+           <div class="sep"></div>
                     <p>
                         Garage V-Parrot , Entretiens , réparations et ventes automobiles <br>
                         Adresse : 123 rue des Jardins, 75000 Paris, France <br>
