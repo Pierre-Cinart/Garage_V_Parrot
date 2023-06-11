@@ -7,7 +7,10 @@
 <body>
     <header>
         <?php include_once './phpComponents/header.php'; ?>
-    </header>
+        <?php
+session_start();
+?>
+</header>
     <div class="bg">
         <img src="./Images/mecanique/bg.jpg" alt="image de fond mecanique">
     </div>

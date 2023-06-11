@@ -12,6 +12,9 @@
         <img src="./Images/entretien/bg.jpg" alt="image de fond entretien">
     </div>
     <div class = "sep"></div>
+<?php
+    session_start();
+?>
     <section class="main">
     <h1 id ="link-place">Entretiens véhicules :</h1>
     <div class = "sep"></div>

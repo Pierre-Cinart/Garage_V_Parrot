@@ -7,7 +7,10 @@
 
     <body>
     
-        <header>
+    <?php
+session_start();
+?>
+    <header>
             <?php include_once './phpComponents/header.php'; ?>
         </header>
         <div class="bg">

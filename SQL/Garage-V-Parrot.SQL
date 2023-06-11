@@ -67,3 +67,45 @@ SELECT `user_id` FROM `Users` WHERE `user_rights` = 'admin';
 -- Insertion des utilisateurs avec droits 'employed' dans la table admins
 INSERT INTO `admins` (`admin_info`)
 SELECT `user_id` FROM `Users` WHERE `user_rights` = 'employed';
+
+-- pour des raisons de securité , j ai executer un script php pour crypté les mots de passe  :
+-- <?php
+-- // Connexion à la base de données
+-- $servername = "localhost";
+-- $username = "root";
+-- $password = "root";
+-- $dbname = "Garage-V-Parrot";
+
+-- $bdd = new mysqli($servername, $username, $password, $dbname);
+
+-- if ($bdd->connect_error) {
+--     die("Erreur de connexion à la base de données: " . $bdd->connect_error);
+-- }
+
+-- // Récupération des utilisateurs
+-- $query = "SELECT `user_id`, `user_password` FROM `Users`";
+-- $result = $bdd->query($query);
+
+-- if ($result->num_rows > 0) {
+--     while ($row = $result->fetch_assoc()) {
+--         $user_id = $row['user_id'];
+--         $user_password = $row['user_password'];
+
+--         // Vérification si le mot de passe est déjà hashé
+--         if (!password_verify($user_password, $user_password)) {
+--             // Génération du nouveau hachage du mot de passe
+--             $user_password_hash = password_hash($user_password, PASSWORD_DEFAULT);
+
+--             // Mise à jour de l'enregistrement dans la table "Users" avec le nouveau hachage du mot de passe
+--             $updateQuery = "UPDATE `Users` SET `user_password` = '$user_password_hash' WHERE `user_id` = $user_id";
+--             $bdd->query($updateQuery);
+--         }
+--     }
+-- }
+
+-- // Fermeture de la connexion à la base de données
+-- $bdd->close();
+
+-- ?>
+
+
