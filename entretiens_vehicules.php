@@ -13,7 +13,8 @@
     </div>
     <div class = "sep"></div>
     <section class="main">
-    <h1>Entretiens véhicules</h1>
+    <h1 id ="link-place">Entretiens véhicules :</h1>
+    <div class = "sep"></div>
         <section class ="pictures">
             <div>
                 <img src="./Images/entretien/ent1.jpeg" alt="image entretien vehicule">
@@ -25,10 +26,10 @@
             </div>
         </section>
         <div class = "sep"></div>
-            <article>
+            <article >
                 <div class="txt-box">
                     <p class="txt-s">
-                    Bienvenue sur la page d'entretien régulier du Garage <b>V-Parrot</b>. 
+                    Au Garage <b>V-Parrot</b>. 
                     Nous comprenons l'importance d'un <b>entretien régulier</b> pour assurer la performance et la durabilité de votre véhicule. 
                     Notre équipe qualifiée est là pour vous offrir des <b>services d'entretien complets et professionnels</b>, 
                     adaptés aux besoins spécifiques de votre voiture. De la vidange d'huile au remplacement des filtres, de la 

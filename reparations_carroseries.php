@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <?php include_once './phpComponents/head.php'; ?>
-        <title>Réparations de carrosseries</title>
+        <title>Réparations de carrosseries :</title>
     </head>
 <body>
     <header>
@@ -13,22 +13,23 @@
     </div>
     <div class = "sep"></div>
     <section class = "main">
-        <h1>Réparations de carrosseries</h1>
-        <section class ="pictures">
+        <h1 id ="link-place">Réparations de carrosseries :</h1>
+        <div class = "sep"></div>
+        <section class ="pictures" >
             <div>
-                <img src="./Images/carrosserie/car1.jpg" alt="image carrosserie vehicule">
+                <img src="./Images/carrosserie/car4.webp" alt="image carrosserie vehicule">
                 <img src="./Images/carrosserie/car2.jpg" alt="image carrosserie vehicule"> 
             </div>
             <div>
                 <img src="./Images/carrosserie/car3.jpg" alt="image carrosserie vehicule">
-                <img src="./Images/carrosserie/car4.webp" alt="image carrosserie vehicule"> 
+                <img src="./Images/carrosserie/car1.jpg" alt="image carrosserie vehicule"> 
             </div>
         </section>
         <div class = "sep"></div>
-       <article>
+       <article >
         <div class="txt-box">
             <p class="txt-s">
-            Bienvenue sur la page de réparation de carrosserie du Garage <b>V-Parrot</b>. Nous sommes spécialisés dans 
+            Au Garage <b>V-Parrot</b>. Nous sommes spécialisés dans 
             la <b>réparation de carrosserie</b>, offrant des services de qualité pour redonner vie à votre véhicule. 
             Notre équipe expérimentée utilise les meilleures techniques et équipements pour restaurer l'aspect 
             d'origine de votre voiture. Que ce soit pour des bosses, des rayures ou d'autres dommages, 

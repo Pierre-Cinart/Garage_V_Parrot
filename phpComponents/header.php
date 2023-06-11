@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary bg-secondary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-secondary" style = "position:sticky">
   <div class="container-fluid ">
     <a class="navbar-brand " href="index.php"><img src="./Images/logo_garage.png" alt="logo garage V-parrot"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,11 +14,11 @@
             Nos services
           </a>
           <ul class="dropdown-menu bg-secondary">
-            <li><a class="dropdown-item" href="reparations_carroseries.php">Réparation de carrosseries</a></li>
+            <li><a class="dropdown-item" href="reparations_carroseries.php#link-place">Réparation de carrosseries</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="reparations_mecaniques.php">Réparations mécaniques</a></li>
+            <li><a class="dropdown-item" href="reparations_mecaniques.php#link-place">Réparations mécaniques</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="entretiens_vehicules.php">Entretiens véhicules</a></li>
+            <li><a class="dropdown-item" href="entretiens_vehicules.php#link-place">Entretiens véhicules</a></li>
           </ul>
         </li>
         <li class="nav-item">

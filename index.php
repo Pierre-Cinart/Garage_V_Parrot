@@ -14,8 +14,8 @@
                 <img src="./Images/carrosserie/bg.jpg" alt="image de fond carrosserie">
         </div>
         <section class="main">
-          
-            <article id = "a_propos" class = "article-center txt-l" >
+            <div class="sep"></div>
+            <article id = "a_propos" class = "article-center txt-m" >
                 <h2 >A propos</h2>
                     <p >
                         Bienvenue sur notre site automobile !
@@ -28,7 +28,7 @@
                         L'équipe de Garage V-Parrot
                     </p>
             </article>
-            
+            <div class="sep"></div>
             <article class = "horraire" >
                 <h2>Horraire</h2>
                     <p style ="text-align:left">
