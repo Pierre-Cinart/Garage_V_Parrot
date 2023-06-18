@@ -1,3 +1,4 @@
+//init
 *{
     box-sizing: border-box;
 }
@@ -11,7 +12,7 @@ body{
     background-color: rgb(219, 219, 219);
     
 }
-
+// main content
 .main{
     position: relative;
     min-height: 100%;
@@ -24,6 +25,8 @@ body{
         text-decoration: underline;
     }
 }
+
+//header
 header {
     font-size:18px ;
     a{
@@ -45,10 +48,15 @@ header {
     img{
         width: 80px;
     }
-    
-
+}
+.header-nav {
+    width:100%;
+    padding: 0;
+    margin: 0;
+    background-color: red;
 }
 
+//footer
 footer{
     margin-top: 30px;
     background-color: black;
@@ -61,71 +69,18 @@ footer{
     font-weight: bolder;   
 }
 
-
-
-
 .box-logos {
     img{
         width: 100px;
     }
 }
 
-.header-nav {
-    width:100%;
-    padding: 0;
-    margin: 0;
-    background-color: red;
-}
-
+//background images
 .bg{
     img{
         width: 100%;
         height: 260px;
-        border-top: 1px solid black;
-        
-        
-    }
-}
-
-.article-center{
-    font-family: 'Ubuntu', sans-serif;
-    width : 70%; 
-    margin: auto; 
-    margin-top : 15px;
-    text-align: center;
-}
-.txt-l{
-    font-size : 22px;
-}
-.txt-m{
-    font-size : 20px;
-}
-.txt-s{
-    font-size : 18px;
-}
-.txt-box{
-    font-family: 'Ubuntu', sans-serif;
-    background-color: rgba(241, 229, 124, 0.74);
-    border-radius: 5%;
-    width: 70%;
-    padding:10px;
-    margin: auto;
-    text-align: center;
-    box-shadow: 0px 0px 15px 5px rgba(241, 229, 124, 0.349);
-}
-.horraire{
-    width: 25%;
-    min-width: 210px;
-    margin: auto;
-   
-    h2{
-        text-align: center;
-    }
-    p{
-        padding-left: 20%;
-    }
-    span{
-        font-weight: 700;
+        border-top: 1px solid black; 
     }
 }
 .pictures{
@@ -152,6 +107,53 @@ footer{
         box-shadow: 0px 0px 5px 2px rgba(128, 0, 0, 0.562);
     }
 }
+
+// articles config
+.article-center{
+    font-family: 'Ubuntu', sans-serif;
+    width : 70%; 
+    margin: auto; 
+    margin-top : 15px;
+    text-align: center;
+}
+.txt-l{
+    font-size : 22px;
+}
+.txt-m{
+    font-size : 20px;
+}
+.txt-s{
+    font-size : 18px;
+}
+.txt-box{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(241, 229, 124, 0.74);
+    border-radius: 5%;
+    width: 70%;
+    padding:10px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgba(241, 229, 124, 0.349);
+}
+
+//horraire
+.horraire{
+    width: 25%;
+    min-width: 210px;
+    margin: auto;
+   
+    h2{
+        text-align: center;
+    }
+    p{
+        padding-left: 20%;
+    }
+    span{
+        font-weight: 700;
+    }
+}
+
+//separator
 .sep{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -159,6 +161,7 @@ footer{
     border-bottom: 2px solid rgb(68, 36, 36);
     box-shadow: 0px 0px 8px 5px rgba(128, 0, 0, 0.555);
 }
+//formulaires
 .connect-form{
     width: 320px;
     height: auto;
@@ -206,9 +209,34 @@ footer{
     background-color: rgba(160, 159, 159, 0.281);
     box-shadow: 0px 0px 8px 5px rgba(128, 0, 0, 0.555);
 }
-@media screen and (max-width: 800px) {
+//screens queries
+@media screen and (max-width: 820px) {
+    //footer
+    footer{
+        font-size: 12px;
+        font-weight: 400;
+    }
     .box-logos{
+        margin-top: 45px;
+        margin-left: 60px;
         img {
+            margin: 5px;
+            width : 75px;
+        }
+    }
+} 
+
+@media screen and (max-width: 400px) {
+    //footer
+    footer{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .box-logos{
+        margin-top: 60px;
+        margin-left: 40px;
+        img {
+            margin: 5px;
             width : 50px;
         }
     }

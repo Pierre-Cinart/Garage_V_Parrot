@@ -22,7 +22,7 @@ session_start();
                 
                 <form method="POST" action="">
                     <div class="form-box">
-                        <br><br>
+                        
                         <label for="message">message :</label>
                         <textarea id="message" name="message" rows="8" cols="40">
 

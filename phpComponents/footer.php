@@ -28,7 +28,7 @@
                 </a>
             </div>
         </div>
-            <p class="text-center p0 m0">cinartDev tout droits réservés</p>
+            <p class="text-center p0 m0">cinartDev &copy; tout droits réservés</p>
     </div>
     
 
