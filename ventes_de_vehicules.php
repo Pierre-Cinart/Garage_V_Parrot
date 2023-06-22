@@ -99,10 +99,8 @@
         ?>
     </section>
 
-    <!-- footer -->
-    <?php
-        include_once('./phpComponent/footer.php');
-    ?>
+   <!-- footer -->
+   <?php include_once './phpComponents/footer.php'; ?>
     
 </body>
 </html>
