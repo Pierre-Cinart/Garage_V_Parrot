@@ -27,7 +27,6 @@ session_start();
             <?php include_once './phpComponents/footer.php'; ?>
         </footer class= "container-fluid">
 
-        <?php include_once './phpComponents/scripts.php'; ?>
 
     </body>
 </html>

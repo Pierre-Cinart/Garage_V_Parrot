@@ -46,7 +46,7 @@ session_start();
             </article>
         </section>
 
-        <footer class= "container-fluid">
+        <footer >
             <?php include_once './phpComponents/footer.php'; ?>
         </footer >
         

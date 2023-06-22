@@ -48,7 +48,6 @@ session_start();
 
     <footer>
         <?php include_once './phpComponents/footer.php'; ?>
-    </footer class= "container-fluid">
-    <?php include_once './phpComponents/scripts.php'; ?>
+    </footer>
 </body>
 </html>

@@ -19,6 +19,6 @@ session_start();
     <footer>
         <?php include_once './phpComponents/footer.php'; ?>
     </footer class= "container-fluid">
-
+    
 </body>
 </html>
