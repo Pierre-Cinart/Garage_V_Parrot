@@ -7,12 +7,14 @@ session_start();
         <?php include_once './phpComponents/head.php'; ?>
     </head>
 <body>
-    <header>
-        <?php include_once './phpComponents/header.php'; ?>
-    </header>
+    <!-- header -->
+    <?php include_once './phpComponents/header.php'; ?>
+    
+    <!-- main section -->
+    <section class="main">
 
-        <section class="main">
             <div class="sep"></div>
+            <!-- connexion -->
            <div class="connect-form">
                 <legend><h2>connexion</h2></legend>
                 <form method="POST" action="">
@@ -32,19 +34,22 @@ session_start();
                     <br>
                 </form>
            </div>
+
            <div class="sep"></div>
 
             <div class="text-sub">
+
                 <div class="sep"></div>
 
                 <p>Vous ne possedez pas de compte ? <br> Remplissez le formulaire d 'inscription et rejoignez notre communauté</p>
-
+                
                 <div class="sep"></div>
             </div>
 
             <div class="sep"></div>
+            <!-- inscription -->
             <div class="connect-form">
-                <legend><h2>inscription</h2></legend>
+                <h2>inscription</h2>
                 <form method="POST" action="">
                     <div class="form-box">
                         <label for="new-user">e_mail :</label>
@@ -74,9 +79,9 @@ session_start();
 
         </section>
 
-        <footer>
-            <?php include_once './phpComponents/footer.php'; ?>
-        </footer>
+        <!-- footer -->
+        <?php include_once './phpComponents/footer.php'; ?>
+    
         
 </body>
 </html>

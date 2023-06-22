@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -6,18 +9,17 @@
     </head>
 
     <body>
-    
-    <?php
-session_start();
-?>
-    <header>
-            <?php include_once './phpComponents/header.php'; ?>
-        </header>
+        <!-- header  -->
+        <?php include_once './phpComponents/header.php'; ?>
+        <!-- image bannière -->
         <div class="bg">
                 <img src="./Images/carrosserie/bg.jpg" alt="image de fond carrosserie">
         </div>
+        <!-- main section -->
         <section class="main">
+
             <div class="sep"></div>
+             <!-- a propos -->
             <article id = "a_propos" class = "article-center txt-m" >
                 <h2 >A propos</h2>
                     <p >
@@ -31,8 +33,10 @@ session_start();
                         L'équipe de Garage V-Parrot
                     </p>
             </article>
+
             <div class="sep"></div>
-            <article class = "horraire" >
+
+            <section class = "horraire" >
                 <h2>Horraire</h2>
                     <p style ="text-align:left">
                     <span>Lundi :</span> 8h00 - 17h00 <br>
@@ -43,14 +47,9 @@ session_start();
                     <span>Samedi :</span> 9h00 - 12h00 (matin seulement) <br>
                     <span>Dimanche :</span> Fermé
                     </p>
-            </article>
+            </section>
         </section>
-
-        <footer >
-            <?php include_once './phpComponents/footer.php'; ?>
-        </footer >
-        
-        <?php include_once './phpComponents/scripts.php'; ?>
-   
+        <!-- footer  -->
+        <?php include_once './phpComponents/footer.php'; ?>
     </body>
 </html>

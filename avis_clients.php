@@ -8,11 +8,9 @@ session_start();
         <title>Garage V-Parrot - avis clientèle</title>
     </head>
     <body>
-    
-    <header>
+        <!-- header  -->
         <?php include_once './phpComponents/header.php'; ?>
-    </header>
-
+        <!-- main section -->
         <section class="main">
             <article>
                 <h2> Découvrez les avis de nos clients </h2>
@@ -22,10 +20,9 @@ session_start();
                 </div>
             </article>
         </section>
-
-        <footer>
-            <?php include_once './phpComponents/footer.php'; ?>
-        </footer class= "container-fluid">
+        <!-- footer  -->
+        <?php include_once './phpComponents/footer.php'; ?>
+       
 
 
     </body>

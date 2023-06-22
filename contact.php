@@ -8,16 +8,16 @@ session_start();
         <title>Garage V-Parrot - contact</title>
     </head>
 <body>
-    <header>
-        <?php include_once './phpComponents/header.php'; ?>
-    </header>
-
-        <section class="main">
-            <article class="article-center">
-                <div>
-                <div class="sep"></div>
-                <h2 style = "margin:auto;text-align:center;">besoin de plus d 'informations? <br> contactez nous :</h2>
-                <br>
+     <!-- header  -->
+     <?php include_once './phpComponents/header.php'; ?>
+    <!-- main section -->
+    <section class="main">
+        <article class="article-center">
+            <div>
+            <div class="sep"></div>
+            <h2 style = "margin:auto;text-align:center;">besoin de plus d 'informations? <br> contactez nous :</h2>
+            <br>
+            <!-- formulaire de contact -->
            <div class="contact-form">
                 
                 <form method="POST" action="">
@@ -38,6 +38,7 @@ session_start();
            </div>
            <br>
            <div class="sep"></div>
+           <!-- informations de contact -->
                     <p>
                         Garage V-Parrot , Entretiens , réparations et ventes automobiles <br>
                         Adresse : 123 rue des Jardins, 75000 Paris, France <br>
@@ -47,10 +48,9 @@ session_start();
                 </div>
             </article>
         </section>
-
-        <footer>
-            <?php include_once './phpComponents/footer.php'; ?>
-        </footer class= "container-fluid">
-        <?php include_once './phpComponents/scripts.php'; ?>
+        <!-- footer  -->
+        <?php include_once './phpComponents/footer.php'; ?>
+        
+       
 </body>
 </html>

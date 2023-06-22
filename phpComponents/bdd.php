@@ -10,7 +10,7 @@ $bdd = new mysqli($servername, $username, $password, $dbname);
 if ($bdd->connect_error) {
     die("Erreur de connexion à la base de données: " . $bdd->connect_error);
 } 
-else {
-    echo "Connection réussie";
-}
+// else {
+//     echo "Connection réussie";
+// }
 ?>
