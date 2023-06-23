@@ -27,6 +27,7 @@ body{
 }
 
 //header
+
 header {
     font-size:18px ;
     a{
@@ -271,7 +272,15 @@ footer{
 .card-body a:hover {
     background-color: #0056b3;
 }
-
+.txt-noresult{
+    text-align: center;
+    margin-left:25px;
+    width: 225px;
+    height:auto;
+    color:red;
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
 //screens queries
 @media screen and (max-width: 820px) {

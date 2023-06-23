@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-secondary" style = "position:sticky">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-secondary" >
     <div class="container-fluid ">
       <a class="navbar-brand " href="index.php"><img src="./Images/logo_garage.png" alt="logo garage V-parrot"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -45,37 +45,44 @@
             // Valider et échapper les données de recherche (sécurité)
             $searchTerm = isset($_GET['search']) ? mysqli_real_escape_string($bdd, $_GET['search']) : '';
 
-            // Préparer la requête SQL en ajoutant une clause WHERE pour filtrer les voitures selon le critère de recherche
+            // Préparer la requête SQL en ajoutant une clause WHERE pour filtrer les voitures selon le critère de recherche sans option
             $query = "SELECT * FROM Cars WHERE car_mark LIKE '%$searchTerm%' OR car_model LIKE '%$searchTerm%'";
-
-            // Vérifier l'option de tri sélectionnée
+            
+            // Vérifier l'option de tri sélectionnée et modifier la requete SQL
             if (isset($_GET['sort_select'])) {
                 $sortOption = $_GET['sort_select'];
-
-                // Ajouter une clause ORDER BY en fonction de l'option de tri sélectionnée
+                // Préparer la requête SQL en ajoutant une clause WHERE 
+                // et une clause ORDER BY en fonction de l'option de tri sélectionnée 
+                // pour filtrer les voitures selon le critère de recherche
                 switch ($sortOption) {
                     case 'prix-croissant':
-                        $query .= " ORDER BY car_price ASC";
+                        $query = "SELECT * FROM Cars WHERE car_mark LIKE '%$searchTerm%' OR car_model LIKE '%$searchTerm%'ORDER BY car_price ASC";
                         break;
                     case 'prix-decroissant':
-                        $query .= " ORDER BY car_price DESC";
+                        $query = "SELECT * FROM Cars WHERE car_mark LIKE '%$searchTerm%' OR car_model LIKE '%$searchTerm%'ORDER BY car_price DESC";
                         break;
                     case 'marque':
-                        $query .= " ORDER BY car_mark ASC";
+                        $query = "SELECT * FROM Cars WHERE car_mark LIKE '%$searchTerm%' ORDER BY car_mark ASC";
                         break;
                     case 'modele':
-                        $query .= " ORDER BY car_model ASC";
+                        $query = "SELECT * FROM Cars WHERE car_model LIKE '%$searchTerm%' ORDER BY car_model ASC";
                         break;
                 }
             }
+           
 
             // Exécuter la requête SQL en utilisant une requête préparée pour une meilleure sécurité
             $stmt = $bdd->prepare($query);
             $stmt->execute();
             $result = $stmt->get_result();
-
-            // Afficher les résultats de la galerie en utilisant les données récupérées (require './phpFunctions/gallerie.php')
-            drawGallery($result);
+            if ($result->num_rows === 0) {
+                echo '<p class = "txt-noresult">Aucun véhicule ne correspond à votre recherche.</p>';
+            }
+            else {
+                 // Afficher les résultats de la galerie en utilisant les données récupérées (require './phpFunctions/gallerie.php')
+                drawGallery($result);
+            }
+           
 
             // Fermer la requête préparée et libérer les ressources
             $stmt->close();
