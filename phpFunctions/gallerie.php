@@ -17,9 +17,9 @@
             echo "<div class='card'>";
                 echo "<div class='card-txt'>";
                     echo "<h3>$carMark $carModel</h3>";
-                    echo "<p>Kilométrage : $carKm km</p>";
-                    echo "<p>Couleur : $carColor</p>";
-                    echo "<p>Prix : $carPrice €</p>";
+                    echo "<p><b>Kilométrage :</b> $carKm km</p>";
+                    echo "<p><b>Couleur :</b> $carColor</p>";
+                    echo "<p><b>Prix :</b> $carPrice €</p>";
                 echo "</div>";
                 echo "<div>";
                     echo "<img class='card-img' src='$carPicture' alt='$carMark $carModel'>";

@@ -27,7 +27,7 @@
         <form class="search-form" action="ventes_de_vehicules.php" method="GET" style = "margin-left :20px;">
             <input type="text" name="search" placeholder="Rechercher...">
             <button type="submit">Rechercher</button>
-            <!-- barre d otions -->
+            <!-- barre d options -->
             <label for="sort_select">trier par :</label>
             <select name="sort_select" id="sort_select" >
                 <option value="">-- Options de tri  --</option>
